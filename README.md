@@ -2,12 +2,45 @@
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-with extra features:
+This is the best practice boilerplate for Next.js powered and implement the principles of [Next.js Architecture Guide via Arno](https://arno.surfacew.com/posts/nextjs-architecture)
+
+Features:
 
 * 🦄 **AI friendly**: add `.context` as context folder to follow the [BP of Arno](https://arno.surfacew.com/posts/cursor.bp#building-project-specific-instructions-for-cursor-ai-code-generation) we add `cursor.mdc` by default to reference the project specific instructions for cursor ai code generation
-* 
+* 🧰 **Cool Tech Stack**: use the latest and cut-edged cool tech stack to build the app, and also a good practice for AI to handle, less code, more time for crafting ideas
+* 💰 **SaaS Minimal Features**: MVP level for a SaaS app x Supabase x basic features to start with: payments, auth, account, etc.
 
+## Tech Stack for this boilerplate
 
+[Basic]
+
+* [TypeScript](https://www.typescriptlang.org)
+* [Jest](https://jestjs.io) for testing both client and server
+
+[AI]
+
+* [ai-sdk](https://ai-sdk.dev/docs/introduction)
+
+[Server]
+
+* [Next.js 15](https://nextjs.org) with `Turbopack`
+* [Prisma](https://www.prisma.io)
+* [Vercel](https://vercel.com) for deployment and CI/CD
+* [Supabase](https://supabase.com) platform powered abilities for MVP
+  * Supabase Postgres
+  * Supabase Auth
+  * Supabase Storage
+  * Supabase Realtime
+  * Supabase KV
+  * ...
+
+[Client]
+
+* [React](https://react.dev)
+* [Shadcn/ui](https://ui.shadcn.com)
+* [Tailwind CSS](https://tailwindcss.com)
+* [swr](https://swr.vercel.app/)
+* [zustand](https://zustand-demo.pmnd.rs/)
 
 ## Getting Started
 
