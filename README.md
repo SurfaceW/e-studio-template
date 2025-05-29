@@ -118,4 +118,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 * [Supabase x Next.js](https://supabase.com/docs/guides/getting-started/quickstarts/nextjs)
   * official -> https://github.com/vercel/next.js/tree/canary/examples/with-supabase boilerplate
+* [Suapbase saas starter](https://github.com/dzlau/stripe-supabase-saas-template) learn from it
 
