@@ -10,12 +10,26 @@ Features:
 * 🧰 **Cool Tech Stack**: use the latest and cut-edged cool tech stack to build the app, and also a good practice for AI to handle, less code, more time for crafting ideas
 * 💰 **SaaS Minimal Features**: MVP level for a SaaS app x Supabase x basic features to start with: payments, auth, account, etc.
 
+---
+
+Features presets:
+
+[Admin]
+
+
+[Payment]
+
+
+
+
+
 ## Tech Stack for this boilerplate
 
 [Basic]
 
 * [TypeScript](https://www.typescriptlang.org)
 * [Jest](https://jestjs.io) for testing both client and server
+* [pnpm](https://pnpm.io) as package manager recommended
 
 [AI]
 
@@ -41,6 +55,10 @@ Features:
 * [Tailwind CSS](https://tailwindcss.com)
 * [swr](https://swr.vercel.app/)
 * [zustand](https://zustand-demo.pmnd.rs/)
+
+## Environment Variables
+
+use `.env.example` as reference to create `.env`
 
 ## Getting Started
 
@@ -76,3 +94,28 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Todos
+
+* add `zod` as validation lib for BP of data validation or consider use tRPC for API layer
+* add all `SEO` meta template for BP of SEO (icons, metadata for all next.js ready)
+* add `.vscode` BP for next.js project
+* add `Playwright` for E2E testing samples
+* add `Supabase` integration for db
+* add `Supabase` integration for auth and user login (no password login fully)
+* add shadecn and 21-century-ui as ui lib for design system
+* add LICENSE file for BP of open source project
+* prettier config and editorconfig for BP of code style
+* add *jest* test env for BP of server and client side testing
+* support *instrumentation* feature for tracing and monitoring of Vercel and `nextjs` app
+* try `next-safe-action` lib for type-safe server actions
+* add `framer-motion` for BP of animation
+* add `lucide-react` for BP of icon lib
+* add `https://bprogress.vercel.app/docs` bp of progress bar globally for server and client side rendering experience
+* add `server-only` for safe server scripting
+
+## References
+
+* [Supabase x Next.js](https://supabase.com/docs/guides/getting-started/quickstarts/nextjs)
+  * official -> https://github.com/vercel/next.js/tree/canary/examples/with-supabase boilerplate
+
