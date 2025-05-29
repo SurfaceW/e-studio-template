@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+Iteration Feature
+
+Prompt to instruct the AI to generate the feature list for the iteration.
+
+You can use [chat.module.md](mdc:.context/prd/modules/chat/chat.module.md) to reference tech or other production module guide to organize context information.

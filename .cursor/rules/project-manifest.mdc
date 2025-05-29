@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Manifest
+
+simple guide intro to this project.
+
+## Project Guide
+
+[project.manifest.md](mdc:.context/project.manifest.md)
+
+## Production Guide
+
+[prd.main.md](mdc:.context/prd.main.md)
+
+## Technoloy Guide
+
+General principles
+
+[general-guide.md](mdc:.context/tech/general-guide.md)
+
+
+Tech stack BP:
+
+[next.js.md](mdc:.context/tech/next.js.md)
+
+[react.js.md](mdc:.context/tech/react.js.md)
+
+
+
