@@ -1,4 +1,13 @@
+# Elaboration Studio Next.js App Template
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+with extra features:
+
+* 🦄 **AI friendly**: add `.context` as context folder to follow the [BP of Arno](https://arno.surfacew.com/posts/cursor.bp#building-project-specific-instructions-for-cursor-ai-code-generation) we add `cursor.mdc` by default to reference the project specific instructions for cursor ai code generation
+* 
+
+
 
 ## Getting Started
 
